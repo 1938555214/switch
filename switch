@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int louceng;
+	printf("请输入你想要");
+	scanf_s("%d",&louceng);
+
+	switch (louceng)
+	{
+	case 1:printf("一层开");break;
+	case 2:printf("二层开");break;
+	case 3:printf("三层开");break;
+	case 4:printf("四层开");break;
+	case 5:printf("五层开");break;
+	default:printf("二蛋");break;
+
+	}
+
+
+	return 0;
+}
